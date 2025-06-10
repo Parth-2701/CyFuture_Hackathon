@@ -13,3 +13,12 @@ By utilizing CUAD, this system enhances efficiency in **contract review and risk
 
 For more details, visit [CUAD](https://www.atticusprojectai.org/cuad).
 
+## Dataset Conversion for LLaMA Models
+
+Since LLaMA models do not natively support direct ingestion of the CUAD dataset, the data has been **transformed into an optimized format**. The conversion process ensures compatibility and structured input handling for improved legal NLP performance.
+
+- **Converted Dataset:** `alpaca_format_for_llama.json`
+- **Conversion Code:** Implemented in `data_conversion.ipynb`
+- **Source Dataset:** A subset of the **CUAD (Contract Understanding Atticus Dataset)**, containing **expert-annotated legal contract clauses**.
+
+This adaptation enhances contract clause extraction and facilitates **efficient automated legal review** using large language models.
