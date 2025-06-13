@@ -50,6 +50,9 @@ The model is fine-tuned using the formatted dataset.
 
 
 ✅ Uses LoRA for memory-efficient fine-tuning
+
 ✅ Supports long legal documents with 13,500 token context
+
 ✅ 4-bit quantization for low resource usage
+
 ✅ Can be run on Google Colab
